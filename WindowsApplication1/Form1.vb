@@ -1,4 +1,11 @@
-﻿Public Class Form1
+﻿Import System.Windows.Forms
+Public Class Form1
+
+	Public Sub PrintSomething()
+
+		MessageBox.Show("HEllo, World")
+
+	End Sub
 
     Private Sub Button1_Click(sender As System.Object, e As System.EventArgs) Handles Button1.Click
         MsgBox("button 1")
