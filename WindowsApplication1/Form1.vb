@@ -8,7 +8,7 @@
         MsgBox("button 2")
     End Sub
 
-    Private Sub Button3_Click(sender As System.Object, e As System.EventArgs) Handles Button3.Click
+    Private Sub Button3_Click(sender As System.Object, e As System.EventArgs)
         MsgBox("Hello World1")
     End Sub
 End Class
