@@ -17,7 +17,7 @@ Public Class Form1
 
     Private Sub Button3_Click(sender As System.Object, e As System.EventArgs) Handles Button3.Click
         Dim x As String = "test"
-
+        Dim y As String = "new test"
         MsgBox("Hello World1") 'Bakit? test sdsadasdasdas
     End Sub
 End Class
